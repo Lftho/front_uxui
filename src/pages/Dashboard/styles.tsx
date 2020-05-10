@@ -2,13 +2,21 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: 70px;
-  background: #ddd;
+  max-width: 100%;
+  /* background: #ddd; */
   padding: 0 40px;
+
+  img.teste {
+    display: block;
+    margin: 0 auto;
+    max-width: 950px;
+    /* max-width: ${'650px' ? '350px' : '1080px'}; */
+  }
 `;
 
 export const Content = styled.div`
   height: 70px;
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -75,19 +83,17 @@ export const Profile = styled.section`
 `;
 
 export const ContentInfo = styled.section `
-
 `;
 
 export const Repositories = styled.div`
   display: flex;
-
   margin-top: 80px;
-  max-width: 1080px;
+  /* max-width: 1080px; */
 
   a {
     background: #fff;
     border-radius: 5px;
-    width:100%;
+    /* width: 105%; */
     padding: 24px;
     display: block;
     text-decoration: none;

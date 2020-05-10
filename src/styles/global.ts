@@ -12,17 +12,23 @@ export default createGlobalStyle `
     outline: 0;
   }
 
-  html, body, #root {
-    height: 100%;
-  }
 
   body {
     background: #f0f0f5;
     -webkit-font-smoothing: antialiased;
   }
 
+  html, body {
+    height: 100%;
+  }
+
    body, input, button {
     font: 16px Roboto, sans-serif;
+  }
+
+  #root {
+    max-width: 960px;
+    margin: 0 auto;
   }
 
   a {
